@@ -1,0 +1,40 @@
+@mixin base() {
+    background-color: #015294;
+    border-radius: 50%;
+    height: 14rem;
+    margin-bottom: 10rem;
+    width: 14rem;
+
+    @media all and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+}
+
+&__option {
+    @include base;
+
+    &--description {
+        font-weight: 500;
+
+        @media all and (min-width: 768px) {
+            padding-top: 6rem;
+        }
+    }
+
+    &--b {
+        margin-top: 5rem;
+
+        @media all and (min-width: 768px) {
+            margin-top: 0;
+        }
+    }
+
+    &--expert {
+        font-weight: 500;
+        width: 15.5rem;
+
+        @media all and (min-width: 768px) {
+            padding-top: 6rem;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@mixin base() {
+    color: #015294;
+    font-weight: 500;
+    margin-top: 5rem;
+}
+
+&__heading {
+    @include base;
+}

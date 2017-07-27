@@ -1,0 +1,15 @@
+@mixin base() {
+
+}
+
+.quiz {
+    @include base;
+
+    @import 'description';
+    @import 'discover';
+    @import 'heading';
+    @import 'facts';
+    @import 'container';
+    @import 'link';
+}
+

@@ -1,0 +1,22 @@
+@mixin base() {
+    color: #fae334;
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin: 0 auto;
+    max-width: 85%;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+
+    @media all and (min-width: 768px) {
+        max-width: 725px;
+    }
+}
+
+&__description {
+    @include base;
+}

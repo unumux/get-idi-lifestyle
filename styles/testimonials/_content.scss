@@ -1,0 +1,19 @@
+@mixin base() {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: 1150px;
+        padding-top: 5rem;
+    }
+}
+
+&__content {
+    @include base;
+}

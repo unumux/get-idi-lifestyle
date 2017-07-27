@@ -1,0 +1,9 @@
+@mixin base() {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+&__image {
+    @include base;
+}

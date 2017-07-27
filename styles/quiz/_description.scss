@@ -1,0 +1,14 @@
+@mixin base() {
+    font-weight: 400;
+    // margin-bottom: 3rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 1.8rem;
+        // margin-bottom: 5rem;
+    }
+
+}
+
+&__description {
+    @include base;
+}

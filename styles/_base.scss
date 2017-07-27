@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:first-child {
+    margin-top: 0;
+}
+
+:last-child {
+    margin-bottom: 0;
+}
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.8rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 3.6rem;
+    }
+}
+
+sup {
+    font-size: 1rem;
+}
+
+
+.blue {
+   color: #3A80AA;
+}

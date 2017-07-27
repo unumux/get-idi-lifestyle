@@ -1,0 +1,7 @@
+@mixin base() {
+    text-decoration: none;
+}
+
+&__description {
+    @include base;
+}

@@ -1,0 +1,10 @@
+@mixin base() {
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+}
+
+&__container {
+    @include base;
+}

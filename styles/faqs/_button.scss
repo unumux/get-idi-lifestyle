@@ -1,0 +1,28 @@
+@mixin base() {
+    background-color: #015294;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 30rem;
+
+    @media all and (min-width: 768px) {
+        margin: initial;
+        margin-bottom: 4rem;
+        width: 20rem;
+    }
+}
+
+&__button {
+    @include base;
+
+    &:hover {
+        background-color: #3A89AA;
+    }
+}

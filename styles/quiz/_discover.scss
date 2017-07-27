@@ -1,0 +1,22 @@
+@mixin base() {
+    color: #333;
+    margin-bottom: 3rem;
+
+    @media all and (min-width: 768px) {
+        flex-basis: 35%;
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+
+}
+
+
+&__discover {
+    @include base;
+
+    &-content {
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    
+}

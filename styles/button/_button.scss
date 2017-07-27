@@ -1,0 +1,38 @@
+@mixin base() {
+
+    background-color: #015294;
+    border-radius: .4rem;
+    color: #fff;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 29rem;
+
+    @media all and (min-width: 768px) {
+        margin: initial;
+        margin-bottom: 4rem;
+        width: 25rem;
+    }
+
+    &:hover {
+        background-color: #024882;
+    }
+
+}
+
+.button {
+    @include base;
+
+    &--space {
+        @include base;
+
+        @media all and (min-width: 768px) {
+            margin-right: 2rem;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@mixin base() {
+
+    @media all and (min-width: 768px) {
+        flex-basis: 50%;
+        padding-right: 3rem;
+    }
+}
+
+&__section {
+    @include base;
+
+     &--heading {
+         color: #015294;
+         font-family: 'Ubuntu';
+         font-size: 3.2rem; 
+         font-weight: 500;
+
+         @media all and (min-width: 768px) {
+             font-size: 4.2rem;
+         }
+    }
+
+    &--description {
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin-bottom: 4rem;
+    }
+
+}

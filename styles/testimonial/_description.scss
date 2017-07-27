@@ -1,0 +1,11 @@
+@mixin base() {
+    color: #4E4E4E;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+&__description {
+    @include base;
+}

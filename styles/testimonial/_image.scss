@@ -1,0 +1,10 @@
+@mixin base() {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 14rem;
+}
+
+&__image {
+    @include base;
+}

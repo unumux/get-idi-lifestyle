@@ -1,0 +1,16 @@
+@mixin base() {
+    height: 600px;
+
+    @media all and (min-width: 768px) {
+        flex-basis: 50%;
+        height: initial;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 5rem;
+    }
+}
+
+&__facts {
+    @include base;
+
+}

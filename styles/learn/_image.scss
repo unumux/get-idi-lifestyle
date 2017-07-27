@@ -1,0 +1,17 @@
+@mixin base() {
+    display: block;
+    margin: 0 auto;
+    margin-left: 4rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+&__image {
+    @include base;
+
+    &--blog {
+        @include base;
+        margin-left: 3.5rem;
+        padding-top: 4rem;
+    }
+}
