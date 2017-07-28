@@ -1,19 +1,17 @@
 @mixin base() {
     color: #fff;
-    background-image: url('https://unumux.github.io/get-idi/images/family-hero-image.jpg');
+    background-image: url('../images/family-hero-image3.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 15px solid #4981B0;
+    border-bottom: 15px solid #F8B532;
     padding-bottom: 13.6rem;
     padding-left: 6.8rem;
     padding-right: 6.8rem;
     padding-top: 6.8rem;
 
     @media all and (min-width: 768px) {
-        background-position: center center;
-        background-size: cover;
-        height: 37rem;
-
+        height: 45rem;
     }
 }
 
