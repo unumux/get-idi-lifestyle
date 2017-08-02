@@ -6,11 +6,12 @@
     margin-bottom: 5rem;
     margin-top: 2rem;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 992px) {
         flex-wrap: nowrap;
     }
 }
 
 &__nav {
     @include base;
+
 }

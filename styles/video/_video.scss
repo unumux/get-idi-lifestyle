@@ -1,13 +1,9 @@
 @mixin base() {
     margin-bottom: 2rem;
-    margin-top: 14rem;
-    width: 375px;
-    
-    @media screen and (min-width: 443px) {
-        margin-top: 5rem;
-    }
+    width: 100%;
 
-    @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 992px) {
         flex-basis: 80%;
         flex-grow: 0;
         flex-shrink: 1;

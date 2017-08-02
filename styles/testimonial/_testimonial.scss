@@ -2,13 +2,13 @@
     background-color: #fff;
     border-radius: .8rem;
     box-shadow: 5px 5px 2px #E6E8EA;
-    height: 38rem;
+    height: 49rem;
     margin-bottom: 1rem;
     width: 35rem;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 992px) {
         margin-bottom: 0;
-        width: 245px;
+        width: 315px;
     }
 
     @media all and (min-width: 1090px) {
@@ -19,6 +19,8 @@
 .testimonial {
     @include base;
 
+    @import 'action';
+    @import 'actions';
     @import 'image';
     @import 'name';
     @import 'description';

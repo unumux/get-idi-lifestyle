@@ -1,9 +1,13 @@
 @mixin base() {
     margin: 0 auto;
     margin-bottom: 3rem;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 992px) {
         margin: 0;
+        margin-right: 2rem;
     }
 }
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>video-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard---Desktop" transform="translate(-705.000000, -2566.000000)">
+            <g id="Testimonials" transform="translate(0.000000, 1910.000000)">
+                <g id="card" transform="translate(476.000000, 223.000000)">
+                    <g id="Group-11" transform="translate(117.000000, 434.000000)">
+                        <g id="video-icon" transform="translate(113.000000, 0.000000)">
+                            <circle id="Oval" stroke="#015294" stroke-width="2" cx="12" cy="12" r="12"></circle>
+                            <path d="M14.4881772,8.35135438 L18.4013932,16.1777864 L18.4013932,16.1777864 C18.6483825,16.6717649 18.4481581,17.2724379 17.9541796,17.5194272 C17.8153242,17.5888549 17.6622111,17.625 17.506966,17.625 L9.68053399,17.625 L9.68053399,17.625 C9.12824924,17.625 8.68053399,17.1772847 8.68053399,16.625 C8.68053399,16.4697549 8.71667908,16.3166418 8.7861068,16.1777864 L12.6993228,8.35135438 L12.6993228,8.35135438 C12.9463121,7.85737588 13.5469851,7.65715154 14.0409636,7.90414079 C14.234491,8.00090449 14.3914135,8.15782698 14.4881772,8.35135438 Z" id="Triangle" fill="#015294" transform="translate(13.593750, 12.093750) rotate(90.000000) translate(-13.593750, -12.093750) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

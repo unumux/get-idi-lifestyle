@@ -1,0 +1,23 @@
+@mixin base() {
+    align-items: center;
+    color: #015294;
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: 500;
+    justify-content: center;
+    text-decoration: none;
+}
+
+&__actions {
+    @include base;
+
+    &--read {
+        @include base;
+        margin-top: 4rem;
+    }
+
+    &--video {
+        @include base;
+        margin-top: 8.5rem;
+    }
+}

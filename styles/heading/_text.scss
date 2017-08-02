@@ -1,7 +1,6 @@
 @mixin base() {
     color: #fff;
     background-image: url('../images/family-hero-image3.jpg');
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 15px solid #F8B532;
@@ -11,7 +10,10 @@
     padding-top: 6.8rem;
 
     @media all and (min-width: 768px) {
-        height: 45rem;
+        background-position: center center;
+        background-size: cover;
+        height: 37rem;
+
     }
 }
 

@@ -1,5 +1,12 @@
 @mixin base() {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
+
+    @media screen and (min-width: 992px) {
+        justify-content: flex-end;
+    }
 }
 
 &__list {

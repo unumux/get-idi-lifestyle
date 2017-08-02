@@ -1,0 +1,12 @@
+@mixin base() {
+    color: #4E4E4E;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+&__subheading {
+    @include base;
+}

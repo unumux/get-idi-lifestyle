@@ -5,6 +5,10 @@
     margin-bottom: 10rem;
     width: 14rem;
 
+    &:hover {
+        background-color: #E9A827;
+    }
+
     @media all and (min-width: 768px) {
         margin-bottom: 0;
     }
