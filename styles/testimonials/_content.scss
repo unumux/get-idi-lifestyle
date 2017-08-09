@@ -5,12 +5,14 @@
     justify-content: center;
     justify-content: space-around;
     padding-top: 3rem;
+    padding-bottom: 5rem;
 
     @media all and (min-width: 992px) {
         flex-direction: row;
         margin: 0 auto;
         max-width: 800px;
         padding-top: 5rem;
+        padding-bottom: 7rem;
     }
 }
 
